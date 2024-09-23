@@ -1,0 +1,81 @@
+.main-div:hover .hover-text-blue{
+ color:blue;
+ 
+}
+.main-div:hover{
+    cursor: pointer;
+}
+
+.like-lable{
+    transition: 0.1s;
+    cursor: pointer;
+}
+.like-lable:active{
+    scale: 1.2;
+}
+.hover-red:focus{
+    outline: none;
+}
+
+.like-input{
+z-index: -1;
+}
+.hover-red{
+    color: grey;
+}
+.hover-red:hover{
+    color: red;
+}
+
+.filter-hide{
+    background-color: white;
+ 
+}
+.arrow{
+    transform: rotate(90deg);
+    transition: 0.2s;
+}
+.arrow-rotate{
+    transform: rotate(-90deg);
+}
+.visible-none{
+    display:none;
+    
+}
+@media (max-width: 992px) {
+    .visible-none{
+        display:none;
+        
+    }
+    .visible{
+        height: 800px;
+        
+        
+        backdrop-filter: blur(3px);
+        z-index: 1;
+        display: block
+    }
+.position-lg-relative{
+    position: relative;
+}
+.position-lg-absolute{
+    position:absolute;
+}
+.filter-hide{
+    
+    
+    transform: translateX(-560px);
+    height: 100%;
+    z-index: 2;
+    transition: 0.2s;
+    
+    
+}
+.filter-visible{
+    transform: translateX(0px);
+    
+    
+}
+
+
+}
